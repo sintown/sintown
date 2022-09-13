@@ -4,14 +4,7 @@
 #include "20170601-garage.txt"
 #include "20200405-vila-inca.txt"
 
-main()
-{
-	print("**************************************");
- 	print("*                                    *");
- 	print("**************************************");
-}
-
-public OnGameModeInit()
+public OnFilterScriptInit()
 {
     garage();
     vilainca();
